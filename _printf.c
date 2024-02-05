@@ -75,13 +75,13 @@ int _printfBin(unsigned int n, int *count)
 	int binary[64] = {0};
 	int j, i = 0;
 
-	if (num == 0)
+	if (n == 0)
 	{
 		_putchar('0');
 		(*count)++;
 		return (0);
 	}
-	while (num > 0)
+	while (n > 0)
 	{
 		binary[i] = n & 1;
 		n = n >> 1;
