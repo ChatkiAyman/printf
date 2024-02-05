@@ -29,10 +29,6 @@ int print_str(char *str)
 	}
 	return (count);
 }
-
-
-#include <stdio.h>
-#include "main.h"
 /**
  * print_num - prints a number
  * @n: variable
@@ -68,11 +64,6 @@ int print_num(int n, int *count)
 	}
 	return (0);
 }
-
-
-#include <stdio.h>
-#include "main.h"
-
 /**
  * _printfBin - print string
  * @n: variable
@@ -103,11 +94,6 @@ int _printfBin(unsigned int n, int *count)
 	}
 	return (0);
 }
-
-
-
-#include <stdio.h>
-#include "main.h"
 /**
  * _printfSpecif - function that produces output according to a format.
  * @specifier: character string - composed of zero or more directives.
@@ -150,10 +136,6 @@ int _printfSpecif(char specifier, va_list args)
 	}
 	return (count);
 }
-
-
-#include <stdio.h>
-#include "main.h"
 /**
  * _printf - produces output according to a format.
  * @format: character string - composed of zero or more directives.
